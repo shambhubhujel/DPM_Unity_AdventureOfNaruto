@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
     {
         get
         {
-            return collectedCoins;
+                return collectedCoins =+ collectedCoins;
         }
 
         set

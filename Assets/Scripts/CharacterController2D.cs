@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 public class CharacterController2D : MonoBehaviour
 {
-    
+
     private int coins;
 
     [SerializeField]
@@ -161,7 +161,7 @@ public class CharacterController2D : MonoBehaviour
     {
         if (other.gameObject.tag == "Coin")
         {
-            GameManager.Instance.CollectedCoins++;
+    GameManager.Instance.CollectedCoins++;
             Destroy(other.gameObject);
         }
     }

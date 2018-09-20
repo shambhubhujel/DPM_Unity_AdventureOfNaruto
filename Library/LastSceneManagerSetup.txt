@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Menu.unity
+- path: d:/Users/6726/Desktop/AIT-Unity-Naruto/2d-animation-master/2D Animation/Assets/anotherStage.unity
   isLoaded: 1
   isActive: 1
